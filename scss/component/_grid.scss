@@ -1,0 +1,119 @@
+/*** GRID ***/
+
+.container {
+    padding: 0 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 10px;
+  }
+  
+  [class^=col] {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .theme.col-1 {
+    background-color: $info-color;
+      &:hover {
+        background-color: lighten($info-color, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-2 {
+    background-color: $warning-color;
+      &:hover {
+        background-color: lighten($warning-color, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-3 {
+    background-color: #deb2ee;
+      &:hover {
+        background-color: lighten(#deb2ee, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-4 {
+    background-color: #7ee6fd;
+      &:hover {
+        background-color: lighten(#7ee6fd, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-5 {
+    background-color: #88d9a0;
+      &:hover {
+        background-color: lighten(#88d9a0, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-6 {
+    background-color: #4da2bb;
+      &:hover {
+        background-color: lighten(#4da2bb, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-7 {
+    background-color: #ec9fa3;
+      &:hover {
+      background-color: lighten(#ec9fa3, 15%);
+      transition: background-color 0.5s ease-in-out;
+    }
+  }
+  
+  .theme.col-8 {
+    background-color: #fd9f85;
+      &:hover {
+        background-color: lighten(#fd9f85, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-9 {
+    background-color: $error-color;
+      &:hover {
+        background-color: lighten($error-color, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-10 {
+    background-color: $success-color;
+      &:hover {
+        background-color: lighten($success-color, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-11 {
+    background-color: $default-color;
+      &:hover {
+        background-color: lighten($default-color, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .theme.col-12 {
+    background-color: #80e8d1;
+      &:hover {
+        background-color: lighten(#80e8d1, 15%);
+        transition: background-color 0.5s ease-in-out;
+      }
+  }
+  
+  .card {
+    flex-basis: 100%;
+  }
